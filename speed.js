@@ -24,7 +24,7 @@ function speedmeasurement(speed)
     }
     
 }
-console.log(carSpeed(100))
+console.log(speedmeasurement(100))
 
 
 

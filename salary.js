@@ -126,4 +126,4 @@ function netSalary(salary, benefits = 1080)
     const endPay =  [`PAYE: ${payeCalculations().toFixed(2)}, NSSF: ${nssf}, Net Salary is: ${nssfNhifDeduction() + benefits}`];
     return endPay; 
 }
-console.log(netsalary(40000,60000))
+console.log(netsalary(50000,70000))
