@@ -6,7 +6,8 @@ function speedmeasurement(speed)
     if (speed <= 70)
     {
         return 'OK';
-    } // give  demerit points  if it is less than 12 .
+    } 
+    // give  demerit points  if it is less than 12 .
 
     else if (speed > 70 && (speed - 70) % 5 == 0 && (speed - 70) / 5 <= 12) 
     {
