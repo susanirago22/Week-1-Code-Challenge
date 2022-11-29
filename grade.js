@@ -1,31 +1,48 @@
+//write function here--->//
 
- //write function here-->//
-function grades (marks){
-    const grades = document.getElementById('input').value;
+function grade(marks){
+ 
+//TODO:calculate student's grade
 
- const result = document.getElementById('output');
-//Grade
     if(marks > 79){
-     result.innerHTML ="A"; 
+        
+        //return student's grade
+
+     return "A"; 
 
     }
-    //Grade
+    // TODO:calculate student's grade
+
     else if(marks>=60 && marks<=79) {
-        result.innerHTML="B";
+
+        //return student's grade
+
+        return "B";
 
     }
-    //Grade
+    // TODO:calculate student's grade
     else if(marks>=49 && marks<=59){
-        result.innerHTML="C";
+
+        //return student's grade
+
+        return "C";
     }
-    //Grade
+    //TODO:calculate student's grade
+
     else if(marks>=40 && marks<=49){
-        result.innerHTML="D";
+
+        //return student's grade
+
+        return marks="D";
 
     }
-    //Grade 
+    //TODO:calculate student's grade
+
     else if(marks<40){
-        result.innerHTML="E";
+
+        //return student's grade
+
+        return marks="E";
     }
 
 }
