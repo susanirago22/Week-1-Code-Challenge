@@ -5,7 +5,7 @@ function grade(marks){
 //TODO:calculate student's grade
 
     if(marks > 79){
-        
+
         //return student's grade
 
      return "A"; 
@@ -33,7 +33,7 @@ function grade(marks){
 
         //return student's grade
 
-        return marks="D";
+        return "D";
 
     }
     //TODO:calculate student's grade
@@ -42,7 +42,7 @@ function grade(marks){
 
         //return student's grade
 
-        return marks="E";
+        return "E";
     }
 
 }
