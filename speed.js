@@ -10,7 +10,7 @@ function speedmeasurement(speed)
 
     else if (speed > 70 && (speed - 70) % 5 == 0 && (speed - 70) / 5 <= 12) 
     {
-        const points =  (speed - 70) / 5nd
+        const points =  (speed - 70) / 5
         return `Points: `+ points
     }
     // if demerits points are more than 12 it gives 'License suspended'

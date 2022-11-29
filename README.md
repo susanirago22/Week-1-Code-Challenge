@@ -2,7 +2,8 @@
 
 ## Description
 
-This is a code challenge for phase-1 week1
+-This is a code challenge for  the phase-1 week 1
+
 
 # Getting Started
 
@@ -13,6 +14,7 @@ In order for you to use the content on this repo ensure you have the following:
 ## Installation
 
 To use this repo on your machine requires some simple steps
+
 ### Alternative One
 
 - Open a terminal / command line interface on your computer
@@ -53,35 +55,52 @@ Running the application is very straight forward. You can use the following step
  # WK1:Challenge 1
 
 ## Student-Grade-Generator(Toy Problem)
-The input should be between 0 and 100.
-Then output the correct grade: 
+
+-Calculate student's grade
+-The input should be between 0 and 100.
+-Then output the correct grade: 
 A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
-# solution:
+## Solution:
 calculate the student's grade by checking if he/she attains the pass mark
 
 # WK1:Challenge 2
 
-## speed detector(Toy problem)
-Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+## Speed detector(Toy problem)
 
-For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License 
-suspended”.
+-Create a program that measures the speed of a car
+-If the speed limit is less than 70,it should print "OK"
+-For every 5km/s above the speed limit (70,) it should give the driver one demerit and print the total number of denmerit points
+-If the driver gets more than 12 points the function should print:"License suspended"
 
-# solution: 
-The driver gets license by having a speed limit that does not exceed 80 
+
+## Solution: 
+The driver gets license by having a speed limit that does not exceed 70
 
 # WK1:Challenge 3 
 
 ## Net Salary Calculator (Toy Problem)
 
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+-Create  a program that will calculate a person's Net Salary by:
+1.Getting inputs of basic salary and benefits
+2.calculate the payee(i.e),NHIFDeductions,NSSFDeduction,gross salary,and net salary
+
+## Solution
+
+- You can use this links to assist with the calculations:
+
+https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.  
+
+https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
+
 
 # Authors
+
 This project was contributed to by:
 - [Susan Irago](https://github.com/susanirago22/)
 
 # License
+
 The project is licensed under MIT License
 
 
