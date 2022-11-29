@@ -33,52 +33,52 @@ function netSalary(salary, benefits = 1080)
     }
     const nssfNhifDeduction = ()=> 
     {
-        // Block takes into account NSSF, NHIF figures and PAYE function above.
+        // take into account NSSF, NHIF figures and PAYE function above.
 
 
         if (salary <= 5999)
         {
-            const payment = salary - payeCalulations() - nssf - 150;
+            const payment = salary - payeCalculations() - nssf - 150;
             return payment;
         }
         else if (salary >=6000 && salary < 8000)
         {
-            const payment = salary - payeCalulations() - nssf - 300;
+            const payment = salary - payeCalculations() - nssf - 300;
             return payment;
         }
         else if (salary >=8000 && salary < 12000)
         {
-            const payment= salary - payeCalulations() - nssf - 400;
+            const payment= salary - payeCalculations() - nssf - 400;
             return payment;
         }
         else if (salary >=12000 && salary < 15000)
         {
-            const payment = salary - payeCalulations() - nssf - 500;
+            const payment = salary - payeCalculations() - nssf - 500;
             return payment;
         }
         else if (salary >=15000 && salary < 20000)
         {
-            const payment = salary - payeCalulations() - nssf - 600;
+            const payment = salary - payeCalculations() - nssf - 600;
             return payment;
         }
         else if (salary >=20000 && salary < 25000)
         {
-            const payment = salary - payeCalulations() - nssf - 750;
+            const payment = salary - payeCalculations() - nssf - 750;
             return payment;
         }
         else if (salary >=25000 && salary < 30000)
         {
-            const payment= salary - payeCalulations() - nssf - 850;
+            const payment= salary - payeCalculations() - nssf - 850;
             return payment;
         }
         else if (salary >=30000 && salary < 35000)
         {
-            const payment= salary - payeCalulations() - nssf - 900;
+            const payment= salary - payeCalculations() - nssf - 900;
             return payment;
         }
         else if (salary >=35000 && salary < 40000)
         {
-            const payment= salary - payeCalulations() - nssf - 950;
+            const payment= salary - payeCalculations() - nssf - 950;
             return payment;
         }
         else if (salary >=40000 && salary < 45000)
@@ -126,4 +126,4 @@ function netSalary(salary, benefits = 1080)
     const endPay =  [`PAYE: ${payeCalculations().toFixed(2)}, NSSF: ${nssf}, Net Salary is: ${nssfNhifDeduction() + benefits}`];
     return endPay; 
 }
-console.log(netsalary(50000,70000))
+console.log(netsalary(24000,100000))

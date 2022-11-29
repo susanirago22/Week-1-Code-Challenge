@@ -29,4 +29,4 @@ function grades (marks){
     }
 
 }
-console.log(marks(80))
+console.log(marks(79))
