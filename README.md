@@ -49,8 +49,14 @@ Running the application is very straight forward. You can use the following step
       npm install
 - Run the application
 
-      npm start
+1.For the Grade.js
+-Run node Grade.js
 
+2.For the Speed.js
+-Run node Speed.js
+
+3.For the Salary.js
+-Run node Salary.js
 
  # WK1:Challenge 1
 
